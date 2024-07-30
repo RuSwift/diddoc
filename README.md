@@ -1,0 +1,2 @@
+# diddoc
+RuSwift participant DID
