@@ -1,0 +1,13 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1", "https://w3id.org/security/suites/secp256k1recovery-2020/v2"],
+  "id": "did:web:raw.githubusercontent.com:RuSwift:diddoc:main:babapay",
+  "verificationMethod": [{
+      "id": "did:web:raw.githubusercontent.com:RuSwift:diddoc:main:babapay#key-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:web:raw.githubusercontent.com:RuSwift:diddoc:main:babapay",
+      "blockchainAccountId": "eip155:1:0x89a932207c485f85226d86f7cd486a89a24fcc12"
+  }],
+  "authentication": [
+      "did:web:raw.githubusercontent.com:RuSwift:diddoc:main:babapay#key-1"
+  ]
+}
